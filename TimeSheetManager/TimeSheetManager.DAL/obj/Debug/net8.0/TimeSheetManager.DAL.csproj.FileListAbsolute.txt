@@ -1,0 +1,14 @@
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.csproj.AssemblyReference.cache
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.AssemblyInfoInputs.cache
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.AssemblyInfo.cs
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.csproj.CoreCompileInputs.cache
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.deps.json
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.pdb
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\refint\TimeSheetManager.DAL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.pdb
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\ref\TimeSheetManager.DAL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.runtimeconfig.json
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.genruntimeconfig.cache

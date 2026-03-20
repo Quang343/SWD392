@@ -1,0 +1,15 @@
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.csproj.AssemblyReference.cache
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.AssemblyInfoInputs.cache
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.AssemblyInfo.cs
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.csproj.CoreCompileInputs.cache
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.BLL.deps.json
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.BLL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.BLL.pdb
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.DAL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.DAL.pdb
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeShee.4C422C88.Up2Date
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\refint\TimeSheetManager.BLL.dll
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.pdb
+C:\Users\nhatq\OneDrive\Desktop\PE_PRN212_SU24_Trial\PaperNo_1\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\ref\TimeSheetManager.BLL.dll

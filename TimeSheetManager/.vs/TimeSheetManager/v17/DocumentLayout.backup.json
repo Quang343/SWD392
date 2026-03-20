@@ -1,0 +1,559 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|solutionrelative:timesheetmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager\\controllers\\timesheetcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|solutionrelative:timesheetmanager\\controllers\\timesheetcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\service\\timesheetservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\service\\timesheetservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\iservice\\itimesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\iservice\\itimesheetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\dto\\timesheetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\dto\\timesheetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\repository\\timesheetrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\repository\\timesheetrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\models\\timesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\models\\timesheet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\models\\timesheetentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\models\\timesheetentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\seeddata\\timesheetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\seeddata\\timesheetdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\repository\\itimesheetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\repository\\itimesheetrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager\\controllers\\approvalcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|solutionrelative:timesheetmanager\\controllers\\approvalcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager\\controllers\\authcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|solutionrelative:timesheetmanager\\controllers\\authcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\service\\approvalservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\service\\approvalservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\iservice\\iapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\iservice\\iapprovalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\repository\\approvalrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\repository\\approvalrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\repository\\iapprovalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\repository\\iapprovalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\dto\\aproaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\dto\\aproaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\iservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Migrations\\20260320204244_TimeSheetDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TimeSheetManager.DAL\\Migrations\\20260320204244_TimeSheetDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\repository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\repository\\userrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\service\\authservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\service\\authservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|solutionrelative:timesheetmanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\timesheetmanager.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\timesheetmanager.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1952ED8-07F5-4432-AEF9-8A8C54583A7E}|TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj|solutionrelative:timesheetmanager.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Migrations\\20260320192814_TimeSheetDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TimeSheetManager\\Migrations\\20260320192814_TimeSheetDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Migrations\\20260320185412_TimeSheetDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TimeSheetManager\\Migrations\\20260320185412_TimeSheetDb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager\\timesheetmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8D15DD9-B54F-4D9E-8E5F-9382D8BA496B}|TimeSheetManager\\TimeSheetManager.csproj|solutionrelative:timesheetmanager\\timesheetmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|c:\\users\\nhatq\\onedrive\\desktop\\pe_prn212_su24_trial\\paperno_1\\timesheetmanager\\timesheetmanager.dal\\migrations\\20260320204542_timesheetdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9EA67D-1AC6-45B7-9771-A7E66AC82DFE}|TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj|solutionrelative:timesheetmanager.dal\\migrations\\20260320204542_timesheetdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TimesheetController .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Controllers\\TimesheetController .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager\\Controllers\\TimesheetController .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Controllers\\TimesheetController .cs",
+              "RelativeToolTip": "TimeSheetManager\\Controllers\\TimesheetController .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:13:27.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ITimesheetService.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\IService\\ITimesheetService.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\IService\\ITimesheetService.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\IService\\ITimesheetService.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\IService\\ITimesheetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:11:14.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimesheetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\DTO\\TimesheetDTO.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\DTO\\TimesheetDTO.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\DTO\\TimesheetDTO.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\DTO\\TimesheetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:10:35.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TimesheetDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\SeedData\\TimesheetDbContext.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\SeedData\\TimesheetDbContext.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\SeedData\\TimesheetDbContext.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\SeedData\\TimesheetDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:07:06.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TimesheetEntry.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Models\\TimesheetEntry.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Models\\TimesheetEntry.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Models\\TimesheetEntry.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Models\\TimesheetEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:05:41.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Timesheet.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Models\\Timesheet.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Models\\Timesheet.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Models\\Timesheet.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Models\\Timesheet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:05:36.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TimesheetRepository .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\TimesheetRepository .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Repository\\TimesheetRepository .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\TimesheetRepository .cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Repository\\TimesheetRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:04:49.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Program.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager\\Program.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Program.cs",
+              "RelativeToolTip": "TimeSheetManager\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAASwC0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:36:48.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TimesheetService .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Service\\TimesheetService .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\Service\\TimesheetService .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Service\\TimesheetService .cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\Service\\TimesheetService .cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:11:35.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITimesheetRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\ITimesheetRepository.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Repository\\ITimesheetRepository.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\ITimesheetRepository.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Repository\\ITimesheetRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T22:04:34.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApprovalController .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Controllers\\ApprovalController .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager\\Controllers\\ApprovalController .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Controllers\\ApprovalController .cs",
+              "RelativeToolTip": "TimeSheetManager\\Controllers\\ApprovalController .cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:28:53.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IApprovalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\IApprovalRepository.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Repository\\IApprovalRepository.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\IApprovalRepository.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Repository\\IApprovalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:01:46.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AproalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\DTO\\AproalDTO.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\DTO\\AproalDTO.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\DTO\\AproalDTO.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\DTO\\AproalDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:01:07.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20260320204542_TimeSheetDb.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Migrations\\20260320204542_TimeSheetDb.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Migrations\\20260320204542_TimeSheetDb.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Migrations\\20260320204542_TimeSheetDb.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Migrations\\20260320204542_TimeSheetDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:45:42.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserRepository .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\UserRepository .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Repository\\UserRepository .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\UserRepository .cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Repository\\UserRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:55:36.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Repository\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Repository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:55:22.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Controllers\\AuthController .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager\\Controllers\\AuthController .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Controllers\\AuthController .cs",
+              "RelativeToolTip": "TimeSheetManager\\Controllers\\AuthController .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:05:11.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IApprovalService.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\IService\\IApprovalService.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\IService\\IApprovalService.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\IService\\IApprovalService.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\IService\\IApprovalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:08:04.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApprovalService .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Service\\ApprovalService .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\Service\\ApprovalService .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Service\\ApprovalService .cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\Service\\ApprovalService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:26:31.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApprovalRepository .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\ApprovalRepository .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Repository\\ApprovalRepository .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Repository\\ApprovalRepository .cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Repository\\ApprovalRepository .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:02:05.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\DTO\\LoginDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:47:05.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TimeSheetManager.BLL.csproj",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
+              "RelativeToolTip": "TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T19:30:34.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Class1.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:30:32.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthService .cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Service\\AuthService .cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\Service\\AuthService .cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\Service\\AuthService .cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\Service\\AuthService .cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAnwCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:59:47.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\IService\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.BLL\\IService\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\IService\\IAuthService.cs",
+              "RelativeToolTip": "TimeSheetManager.BLL\\IService\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:59:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20260320204244_TimeSheetDb.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Migrations\\20260320204244_TimeSheetDb.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Migrations\\20260320204244_TimeSheetDb.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Migrations\\20260320204244_TimeSheetDb.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Migrations\\20260320204244_TimeSheetDb.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T20:42:44.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\appsettings.json",
+              "RelativeDocumentMoniker": "TimeSheetManager\\appsettings.json",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\appsettings.json",
+              "RelativeToolTip": "TimeSheetManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-20T18:50:23.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager.DAL\\Class1.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\Class1.cs",
+              "RelativeToolTip": "TimeSheetManager.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:30:20.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20260320192814_TimeSheetDb.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Migrations\\20260320192814_TimeSheetDb.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager\\Migrations\\20260320192814_TimeSheetDb.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Migrations\\20260320192814_TimeSheetDb.cs",
+              "RelativeToolTip": "TimeSheetManager\\Migrations\\20260320192814_TimeSheetDb.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T19:28:14.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20260320185412_TimeSheetDb.cs",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Migrations\\20260320185412_TimeSheetDb.cs",
+              "RelativeDocumentMoniker": "TimeSheetManager\\Migrations\\20260320185412_TimeSheetDb.cs",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\Migrations\\20260320185412_TimeSheetDb.cs",
+              "RelativeToolTip": "TimeSheetManager\\Migrations\\20260320185412_TimeSheetDb.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T18:54:12.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "TimeSheetManager.csproj",
+              "DocumentMoniker": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj",
+              "RelativeDocumentMoniker": "TimeSheetManager\\TimeSheetManager.csproj",
+              "ToolTip": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj",
+              "RelativeToolTip": "TimeSheetManager\\TimeSheetManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-20T18:36:52.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1107,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
