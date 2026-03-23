@@ -7,6 +7,7 @@ import { provideHttpClient, withInterceptors } from '@angular/common/http';
 
 bootstrapApplication(App, {
   providers: [
+    ...appConfig.providers,
     provideHttpClient(withInterceptors([authInterceptor]))
   ]
-});
+});
