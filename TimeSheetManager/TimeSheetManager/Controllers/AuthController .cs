@@ -1,4 +1,4 @@
-﻿namespace TimeSheetManager.Controllers
+namespace TimeSheetManager.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
     using TimeSheetManager.BLL.DTO;
@@ -26,6 +26,20 @@
             catch (Exception ex)
             {
                 return Unauthorized(ex.Message);
+            }
+        }
+
+        [HttpPost("register")]
+        public IActionResult Register(RegisterRequest request)
+        {
+            try
+            {
+                _service.Register(request);
+                return Ok(new { message = "Đăng ký thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
             }
         }
     }

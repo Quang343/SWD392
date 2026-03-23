@@ -1,4 +1,4 @@
-﻿
+
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -35,6 +35,32 @@ public class AuthService : IAuthService
             Username = user.Username,
             Role = user.RoleId.ToString()
         };
+    }
+
+    public void Register(RegisterRequest request)
+    {
+        // Kiểm tra username đã tồn tại
+        if (_repo.ExistsByUsername(request.Username))
+            throw new Exception("Username already exists");
+
+        // Tạo User với RoleId = 4 (Employee)
+        var user = new User
+        {
+            Username = request.Username,
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword(request.Password),
+            IsActive = true,
+            RoleId = 4,
+            Employee = new Employee
+            {
+                FullName = request.FullName,
+                Email = request.Email,
+                Department = request.Department,
+                Position = request.Position,
+                Status = "Active"
+            }
+        };
+
+        _repo.CreateUser(user);
     }
 
     private string GenerateJwt(User user)

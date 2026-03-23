@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -21,6 +21,17 @@ namespace TimeSheetManager.DAL.Repository
             return _context.Users
                 .Where(u => u.Username == username && u.IsActive)
                 .FirstOrDefault();
+        }
+
+        public bool ExistsByUsername(string username)
+        {
+            return _context.Users.Any(u => u.Username == username);
+        }
+
+        public void CreateUser(User user)
+        {
+            _context.Users.Add(user);
+            _context.SaveChanges();
         }
     }
 }

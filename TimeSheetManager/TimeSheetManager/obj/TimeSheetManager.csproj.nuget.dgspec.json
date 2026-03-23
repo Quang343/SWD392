@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj": {}
+    "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj": {
+    "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
+        "projectUniqueName": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
         "projectName": "TimeSheetManager.BLL",
-        "projectPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
-        "packagesPath": "C:\\Users\\nhatq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\obj\\",
+        "projectPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhatq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj": {
-                "projectPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj"
+              "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj": {
+                "projectPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -83,24 +83,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj": {
+    "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj",
+        "projectUniqueName": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj",
         "projectName": "TimeSheetManager.DAL",
-        "projectPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj",
-        "packagesPath": "C:\\Users\\nhatq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.DAL\\obj\\",
+        "projectPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.DAL\\TimeSheetManager.DAL.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhatq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -127,7 +127,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -172,24 +172,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj": {
+    "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj",
+        "projectUniqueName": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj",
         "projectName": "TimeSheetManager",
-        "projectPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj",
-        "packagesPath": "C:\\Users\\nhatq\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager\\obj\\",
+        "projectPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager\\TimeSheetManager.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhatq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -204,8 +204,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj": {
-                "projectPath": "C:\\Users\\nhatq\\OneDrive\\Desktop\\PE_PRN212_SU24_Trial\\PaperNo_1\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj"
+              "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj": {
+                "projectPath": "D:\\SWD392\\BE\\TimeSheetManager\\TimeSheetManager.BLL\\TimeSheetManager.BLL.csproj"
               }
             }
           }
@@ -220,7 +220,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -272,7 +272,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

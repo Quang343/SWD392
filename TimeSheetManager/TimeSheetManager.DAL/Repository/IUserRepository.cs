@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +10,7 @@ namespace TimeSheetManager.DAL.Repository
     public interface IUserRepository
     {
         User GetByUsername(string username);
+        bool ExistsByUsername(string username);
+        void CreateUser(User user);
     }
 }

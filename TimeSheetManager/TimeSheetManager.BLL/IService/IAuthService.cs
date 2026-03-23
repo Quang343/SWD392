@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +10,6 @@ namespace TimeSheetManager.BLL.IService
     public interface IAuthService
     {
         LoginResponse Login(LoginRequest request);
+        void Register(RegisterRequest request);
     }
 }

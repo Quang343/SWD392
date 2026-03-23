@@ -1,4 +1,4 @@
-﻿using Org.BouncyCastle.Crypto.Generators;
+using Org.BouncyCastle.Crypto.Generators;
 using TimeSheetManager.Models;
 
 namespace TimeSheetManager
@@ -78,20 +78,24 @@ namespace TimeSheetManager
                 );
                 context.SaveChanges();
             }
-
+        
             // ========================
             // PROJECT ASSIGNMENT
             // ========================
             if (!context.ProjectAssignments.Any())
             {
                 context.ProjectAssignments.AddRange(
-                    new ProjectAssignment { EmployeeId = 4, ProjectId = 1, AssignedDate = DateTime.Now, Status = "Active" },
+                    new ProjectAssignment { EmployeeId = 3, ProjectId = 1, AssignedDate = DateTime.Now, Status = "Active" },
                     new ProjectAssignment { EmployeeId = 5, ProjectId = 1, AssignedDate = DateTime.Now, Status = "Active" },
-                    new ProjectAssignment { EmployeeId = 4, ProjectId = 2, AssignedDate = DateTime.Now, Status = "Active" },
+                    new ProjectAssignment { EmployeeId = 3, ProjectId = 2, AssignedDate = DateTime.Now, Status = "Active" },
                     new ProjectAssignment { EmployeeId = 6, ProjectId = 2, AssignedDate = DateTime.Now, Status = "Active" }
                 );
                 context.SaveChanges();
             }
+
+
+
+
 
             // ========================
             // TIMESHEET
@@ -101,7 +105,7 @@ namespace TimeSheetManager
                 context.Timesheets.AddRange(
                     new Timesheet { EmployeeId = 6, WeekStartDate = new DateTime(2025, 3, 10), WeekEndDate = new DateTime(2025, 3, 16), CreatedDate = DateTime.Now, Status = "Approved" },
                     new Timesheet { EmployeeId = 6, WeekStartDate = new DateTime(2025, 3, 17), WeekEndDate = new DateTime(2025, 3, 23), CreatedDate = DateTime.Now, Status = "Pending" },
-                    new Timesheet { EmployeeId = 4, WeekStartDate = new DateTime(2025, 3, 17), WeekEndDate = new DateTime(2025, 3, 23), CreatedDate = DateTime.Now, Status = "Rejected" },
+                    new Timesheet { EmployeeId = 3, WeekStartDate = new DateTime(2025, 3, 17), WeekEndDate = new DateTime(2025, 3, 23), CreatedDate = DateTime.Now, Status = "Rejected" },
                     new Timesheet { EmployeeId = 5, WeekStartDate = new DateTime(2025, 3, 17), WeekEndDate = new DateTime(2025, 3, 23), CreatedDate = DateTime.Now, Status = "Pending" }
                 );
                 context.SaveChanges();
@@ -120,7 +124,7 @@ namespace TimeSheetManager
 
                     new TimesheetEntry { TimesheetId = 2, TaskItemId = 2, WorkDate = new DateTime(2025, 3, 17), HoursWorked = 7.5, IsOvertime = false, Note = "UI" },
 
-                    // Employee 4
+                    // Employee 3 (was 4 in seed)
                     new TimesheetEntry { TimesheetId = 3, TaskItemId = 3, WorkDate = new DateTime(2025, 3, 17), HoursWorked = 6, IsOvertime = false, Note = "Testing" },
 
                     // Employee 5
@@ -136,10 +140,10 @@ namespace TimeSheetManager
             if (!context.Approvals.Any())
             {
                 context.Approvals.AddRange(
-    new Approval { TimesheetId = 1, ApprovalDate = DateTime.Now, Status = "Approved", Comment = "Good job" , ApprovedByUserId = 4},
-    new Approval { TimesheetId = 2, ApprovalDate = DateTime.Now, Status = "Pending", Comment = "Waiting approval"  ,ApprovedByUserId = null },
-    new Approval { TimesheetId = 3, ApprovalDate = DateTime.Now, Status = "Rejected", Comment = "Not enough hours" , ApprovedByUserId = 4},
-    new Approval { TimesheetId = 4, ApprovalDate = DateTime.Now, Status = "Pending", Comment = "Waiting review" , ApprovedByUserId = null }
+                new Approval { TimesheetId = 1, ApprovalDate = DateTime.Now, Status = "Approved", Comment = "Good job" , ApprovedByUserId = 4},
+                new Approval { TimesheetId = 2, ApprovalDate = DateTime.Now, Status = "Pending", Comment = "Waiting approval"  ,ApprovedByUserId = null },
+                new Approval { TimesheetId = 3, ApprovalDate = DateTime.Now, Status = "Rejected", Comment = "Not enough hours" , ApprovedByUserId = 4},
+                new Approval { TimesheetId = 4, ApprovalDate = DateTime.Now, Status = "Pending", Comment = "Waiting review" , ApprovedByUserId = null }
 );
 
                 context.SaveChanges();
@@ -151,13 +155,13 @@ namespace TimeSheetManager
             if (!context.Reports.Any())
             {
                 context.Reports.AddRange(
-    new Report
-    {
-        EmployeeId = 2,
-        ReportType = "Weekly",
-        GeneratedDate = DateTime.Now,
-        Parameters = "Week=2025-03-17"
-    },
+            new Report
+            {
+                EmployeeId = 2,
+                ReportType = "Weekly",
+                GeneratedDate = DateTime.Now,
+                Parameters = "Week=2025-03-17"
+            },
     new Report
     {
         EmployeeId = 1,

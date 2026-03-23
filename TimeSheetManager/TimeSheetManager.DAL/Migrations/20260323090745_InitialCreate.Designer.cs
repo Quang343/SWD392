@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace TimeSheetManager.DAL.Migrations
 {
     [DbContext(typeof(TimesheetDbContext))]
-    [Migration("20260320204542_TimeSheetDb")]
-    partial class TimeSheetDb
+    [Migration("20260323090745_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

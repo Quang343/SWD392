@@ -48,6 +48,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TimeSheetManager.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TimeSheetManager.BLL.DTO.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.EmployeeController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Employee/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.EmployeeController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Employee/profile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TimeSheetManager.BLL.DTO.UpdateProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
     "Method": "GetAll",
     "RelativePath": "api/timesheet",
@@ -55,6 +97,58 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
+    "Method": "GetAvailableTasks",
+    "RelativePath": "api/timesheet/available-tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
+    "Method": "GetMyTasks",
+    "RelativePath": "api/timesheet/my-tasks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
+    "Method": "GetMyTimesheet",
+    "RelativePath": "api/timesheet/my-timesheet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
+    "Method": "SaveMyTimesheet",
+    "RelativePath": "api/timesheet/save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TimeSheetManager.BLL.DTO.SaveTimesheetRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

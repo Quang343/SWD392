@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +10,11 @@ namespace TimeSheetManager.DAL.Repository
     public interface ITimesheetRepository
     {
         List<Timesheet> GetAll();
+        List<TaskItem> GetTasksByEmployeeId(int employeeId);
+        List<TaskItem> GetAllTasks();
+        Timesheet GetTimesheetByWeek(int employeeId, DateTime startDate);
+        void CreateTimesheet(Timesheet timesheet);
+        void UpdateTimesheet(Timesheet timesheet);
+        void DeleteEntries(List<TimesheetEntry> entries);
     }
 }
