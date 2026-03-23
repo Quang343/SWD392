@@ -1,0 +1,64 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* ===== Background Gradient ===== */
+.bg-brand-gradient {
+    background: linear-gradient(135deg, #eeeaff 0%, #f8f9fa 40%, #eefbf3 100%);
+}
+
+/* ===== Glass Card ===== */
+.glass-card {
+    background: #ffffff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Input Fields & Selects (unified style) ===== */
+input.input-field,
+select.input-field,
+.input-field {
+    width: 100%;
+    background-color: #ffffff !important;
+    border: 1px solid #d1d5db !important;
+    border-radius: 8px !important;
+    padding: 11px 14px !important;
+    font-size: 0.875rem;
+    color: #191c1d;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input.input-field:focus,
+select.input-field:focus,
+.input-field:focus {
+    border-color: #3525cd !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(53, 37, 205, 0.1) !important;
+}
+
+.input-field::placeholder {
+    color: #aaa;
+}
+
+/* ===== Labels ===== */
+.label-text {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #555;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+/* ===== Input Shadow (Login page) ===== */
+.input-shadow {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
