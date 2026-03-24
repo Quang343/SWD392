@@ -29,3 +29,19 @@ D:\SWD392\BE\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetMan
 D:\SWD392\BE\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\refint\TimeSheetManager.BLL.dll
 D:\SWD392\BE\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.pdb
 D:\SWD392\BE\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\ref\TimeSheetManager.BLL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.BLL.deps.json
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.BLL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.BLL.pdb
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.DAL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\bin\Debug\net8.0\TimeSheetManager.DAL.pdb
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.csproj.AssemblyReference.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.AssemblyInfoInputs.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.AssemblyInfo.cs
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.csproj.CoreCompileInputs.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.sourcelink.json
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeShee.4C422C88.Up2Date
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\refint\TimeSheetManager.BLL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\TimeSheetManager.BLL.pdb
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.BLL\obj\Debug\net8.0\ref\TimeSheetManager.BLL.dll

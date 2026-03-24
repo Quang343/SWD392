@@ -27,3 +27,18 @@ D:\SWD392\BE\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\refint\TimeS
 D:\SWD392\BE\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.pdb
 D:\SWD392\BE\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.genruntimeconfig.cache
 D:\SWD392\BE\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\ref\TimeSheetManager.DAL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.deps.json
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.runtimeconfig.json
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\bin\Debug\net8.0\TimeSheetManager.DAL.pdb
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.csproj.AssemblyReference.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.AssemblyInfoInputs.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.AssemblyInfo.cs
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.csproj.CoreCompileInputs.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.sourcelink.json
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\refint\TimeSheetManager.DAL.dll
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.pdb
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\TimeSheetManager.DAL.genruntimeconfig.cache
+D:\FU Learning\26-Spring\SWD392\BE'\SWD392\TimeSheetManager\TimeSheetManager.DAL\obj\Debug\net8.0\ref\TimeSheetManager.DAL.dll
