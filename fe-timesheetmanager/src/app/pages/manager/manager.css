@@ -1,0 +1,215 @@
+/* ===== Reset cơ bản ===== */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+}
+
+/* ===== Background ===== */
+.bg-brand-gradient {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+/* ===== Layout ===== */
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.p-6 {
+  padding: 24px;
+}
+
+.max-w-md {
+  max-width: 420px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+/* ===== Card ===== */
+.bg-white {
+  background: #fff;
+}
+
+.rounded-2xl {
+  border-radius: 20px;
+}
+
+.shadow-xl {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+.p-8 {
+  padding: 32px;
+}
+
+/* ===== Typography ===== */
+.text-gray-900 {
+  color: #111827;
+}
+
+.text-gray-500 {
+  color: #6b7280;
+}
+
+.text-gray-400 {
+  color: #9ca3af;
+}
+
+.text-xl {
+  font-size: 20px;
+}
+
+.text-3xl {
+  font-size: 28px;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+/* ===== Input ===== */
+.input-field {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #4F46E5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+.input-shadow {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* ===== Button ===== */
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.bg-indigo {
+  background: #4F46E5;
+}
+
+.bg-indigo:hover {
+  background: #4338ca;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.rounded-xl {
+  border-radius: 14px;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
+}
+
+/* ===== Checkbox ===== */
+input[type="checkbox"] {
+  accent-color: #4F46E5;
+}
+
+/* ===== Divider ===== */
+.border-t {
+  border-top: 1px solid #e5e7eb;
+}
+
+/* ===== Links ===== */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Error box ===== */
+.bg-red-50 {
+  background: #fef2f2;
+}
+
+.border-red-200 {
+  border: 1px solid #fecaca;
+}
+
+.text-red-700 {
+  color: #b91c1c;
+}
+
+/* ===== Footer ===== */
+footer a {
+  font-size: 12px;
+}
+
+/* ===== Icon box ===== */
+.w-10 {
+  width: 40px;
+}
+
+.h-10 {
+  height: 40px;
+}
+
+.rounded-lg {
+  border-radius: 10px;
+}
+
+.shadow-indigo {
+  box-shadow: 0 8px 16px rgba(79, 70, 229, 0.3);
+}
+
+/* ===== Utility ===== */
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-10 {
+  margin-bottom: 40px;
+}
+
+.mt-6 {
+  margin-top: 24px;
+}
+
+.mt-8 {
+  margin-top: 32px;
+}
+
+.space-y-6 > * + * {
+  margin-top: 24px;
+}
+
+.space-y-4 > * + * {
+  margin-top: 16px;
+}

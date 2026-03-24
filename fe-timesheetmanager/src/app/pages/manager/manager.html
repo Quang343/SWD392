@@ -1,1 +1,183 @@
-<p>manager works!</p>
+<!-- Sidebar Navigation (giữ nguyên như employee, chỉ đổi link cho Manager) -->
+<aside class="w-[240px] h-screen fixed left-0 top-0 bg-gray-900 shadow-2xl flex flex-col overflow-y-auto z-40">
+  <div class="text-white font-bold text-xl px-6 py-8">
+    Digital Chronometer
+  </div>
+  <nav class="flex-1 px-3 space-y-1">
+    <a class="bg-indigo-600/10 text-indigo-400 border-r-4 border-indigo-500 py-3 px-6 flex items-center gap-3 rounded-xl"
+       routerLink="/manager">
+      <span class="material-symbols-outlined">approval</span>
+      <span class="font-medium text-sm tracking-wide">Timesheet Approval</span>
+    </a>
+  </nav>
+
+  <div class="mt-auto p-6 border-t border-gray-800">
+    <div class="flex items-center gap-3">
+      <a routerLink="/profile"
+         class="flex items-center gap-3 flex-1 hover:opacity-80 transition-opacity cursor-pointer">
+        <div class="w-10 h-10 rounded-full bg-indigo-500 flex items-center justify-center text-white font-bold text-sm">
+         {{ username.charAt(0).toUpperCase() || '?' }}
+        </div>
+        <div>
+          <p class="text-white text-sm font-semibold">{{ username || 'Manager' }}</p>
+          <p class="text-gray-500 text-xs">Manager</p>
+        </div>
+      </a>
+      <button (click)="logout()" class="text-gray-500 hover:text-red-400 transition-colors">
+        <span class="material-symbols-outlined text-xl">logout</span>
+      </button>
+    </div>
+  </div>
+</aside>
+
+<main class="ml-[240px] min-h-screen flex flex-col bg-[#f8f9fa]">
+
+<header class="h-16 fixed top-0 right-0 left-[240px] z-30 bg-white border-b flex items-center px-8">
+  <h1 class="text-sm font-semibold text-gray-900">Dashboard / Timesheet Approval</h1>
+</header>
+
+<section class="mt-16 p-8 flex flex-col gap-8">
+
+<div *ngIf="statusMessage"
+     class="p-4 rounded-lg text-sm"
+     [ngClass]="isError ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'">
+  {{ statusMessage }}
+</div>
+
+<!-- KPI -->
+<div class="grid grid-cols-3 gap-6">
+  <div class="bg-white p-6 rounded-xl shadow">
+    <p>Pending</p>
+    <h2 class="text-3xl">{{ pendingCount }}</h2>
+  </div>
+
+  <div class="bg-white p-6 rounded-xl shadow">
+    <p>Approved</p>
+    <h2 class="text-3xl">{{ approvedCount }}</h2>
+  </div>
+
+  <div class="bg-white p-6 rounded-xl shadow">
+    <p>Total</p>
+    <h2 class="text-3xl">{{ timesheets.length }}</h2>
+  </div>
+</div>
+
+<!-- TABLE -->
+<div class="bg-white rounded-xl shadow overflow-hidden">
+  <div class="overflow-x-auto">
+
+<table class="w-full border-collapse">
+
+<thead class="bg-gray-50/50">
+<tr>
+  <th class="text-left px-8 py-5">ID</th>
+  <th class="text-left px-6 py-5">Nhân viên</th>
+  <th class="px-6 py-5">Trạng thái</th>
+  <th class="px-6 py-5">Phê duyệt</th>
+  <th class="px-6 py-5">Từ chối</th>
+</tr>
+</thead>
+
+<tbody class="divide-y divide-gray-50">
+
+<ng-container *ngFor="let ts of timesheets; trackBy: trackById">
+
+<!-- ROW -->
+<tr class="hover:bg-gray-50 cursor-pointer"
+    (click)="toggleRow(ts)">
+
+<td class="px-8 py-5">{{ ts.timesheetId }}</td>
+
+<td class="px-6 py-5">{{ ts.employeeName }}</td>
+
+<td class="px-6 py-5">
+  <span class="px-3 py-1 rounded"
+        [ngClass]="getStatusClass(ts.status)">
+    {{ ts.status }}
+  </span>
+</td>
+
+<!-- APPROVE -->
+<td class="px-6 py-5 text-center">
+  <button *ngIf="ts.status === 'Pending'"
+        [disabled]="isProcessing"
+        (click)="$event.stopPropagation(); approve(ts)"
+        class="px-4 py-2 bg-green-500 text-white rounded disabled:opacity-50">
+  Approve
+</button>
+
+  <span *ngIf="ts.status !== 'Pending'" class="text-gray-400">-</span>
+</td>
+
+<!-- REJECT -->
+<td class="px-6 py-5 text-center">
+  <button *ngIf="ts.status === 'Pending'"
+        [disabled]="isProcessing"
+        (click)="$event.stopPropagation(); openEdit(ts)"
+        class="px-4 py-2 bg-red-500 text-white rounded disabled:opacity-50">
+  Reject
+</button>
+
+  <span *ngIf="ts.status !== 'Pending'" class="text-gray-400">-</span>
+</td>
+
+</tr>
+
+<!-- EXPAND ROW -->
+<tr *ngIf="selectedTimesheet?.timesheetId === ts.timesheetId">
+<td colspan="5" class="bg-gray-50 px-10 py-5">
+
+<div *ngFor="let e of ts.entries" class="mb-2 text-sm">
+  📅 {{ e.workDate | date:'shortDate' }}
+  | ⏱ {{ e.hoursWorked }}h
+  | 🛠 {{ e.taskName }}
+</div>
+
+</td>
+</tr>
+
+</ng-container>
+
+</tbody>
+</table>
+
+  </div>
+
+  <div class="p-6 border-t flex justify-between text-sm text-gray-500">
+    <span>Tổng: {{ timesheets.length }} timesheet</span>
+    <button (click)="refreshData()">Refresh</button>
+  </div>
+</div>
+
+</section>
+
+</main>
+
+<!-- ===== MODAL REJECT ===== -->
+<div *ngIf="showModal"
+     class="fixed inset-0 bg-black/40 flex items-center justify-center z-50">
+
+<div class="bg-white w-[400px] rounded-xl p-6 shadow-xl">
+
+<h2 class="text-lg font-bold mb-4">Reject Reason</h2>
+
+<textarea [(ngModel)]="rejectComment"
+          class="w-full border p-2 rounded mb-4"
+          placeholder="Nhập lý do từ chối..."></textarea>
+
+<div class="flex justify-end gap-2">
+
+<button (click)="closeModal()"
+        class="px-4 py-2 bg-gray-200 rounded">
+  Cancel
+</button>
+
+<button (click)="confirmReject()"
+        class="px-4 py-2 bg-red-500 text-white rounded">
+  Reject
+</button>
+
+</div>
+
+</div>
+</div>
