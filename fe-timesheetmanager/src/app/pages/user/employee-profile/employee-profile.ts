@@ -1,8 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { EmployeeService, EmployeeProfile as IEmployeeProfile } from '../../../services/employee.service';
+import { timeout, catchError } from 'rxjs/operators';
+import { of, throwError } from 'rxjs';
 
 @Component({
   selector: 'app-employee-profile',
@@ -28,7 +30,10 @@ export class EmployeeProfile implements OnInit {
   message: string = '';
   isError: boolean = false;
 
-  constructor(private employeeService: EmployeeService) { }
+  constructor(
+    private employeeService: EmployeeService,
+    private cdr: ChangeDetectorRef
+  ) {}
 
   ngOnInit(): void {
     this.loadProfile();
@@ -40,18 +45,22 @@ export class EmployeeProfile implements OnInit {
 
   loadProfile(): void {
     this.isLoading = true;
-    this.employeeService.getProfile().subscribe({
+    this.cdr.detectChanges(); // force spinner to show visually
+
+    this.employeeService.getProfile().pipe(
+      timeout(10000)
+    ).subscribe({
       next: (data) => {
-        console.log("Dữ liệu BE trả về:", data);
+        console.log("Profile Data Successfully Fetched:", data);
         this.profile = data;
         this.isLoading = false;
+        this.cdr.detectChanges(); // BẮT BUỘC RENDER LẠI DOM TRÁNH LỖI ZONE.JS
       },
       error: (err) => {
-        console.error("Lỗi khi fetch profile:", err);
+        console.error("HTTP Profile Error:", err);
         this.isLoading = false;
         this.isError = true;
 
-        // Log lỗi rõ ràng ra UI
         if (err.status === 401) {
           this.message = 'Hết hạn đăng nhập, vui lòng đăng nhập lại!';
         } else if (err.status === 404) {
@@ -59,6 +68,7 @@ export class EmployeeProfile implements OnInit {
         } else {
           this.message = 'Lỗi hệ thống: ' + (err.error?.message || err.message);
         }
+        this.cdr.detectChanges(); // BẮT BUỘC RENDER LẠI DOM
       }
     });
   }
@@ -70,25 +80,28 @@ export class EmployeeProfile implements OnInit {
     }
   }
 
+  isSaving: boolean = false;
+
   saveProfile(): void {
-    this.isLoading = true;
+    this.isSaving = true;
     this.employeeService.updateProfile({
       fullName: this.profile.fullName,
       department: this.profile.department,
       position: this.profile.position
     }).subscribe({
       next: (res) => {
-        this.message = res.message;
+        this.message = res.message || 'Cập nhật thành công!';
         this.isError = false;
         this.isEditing = false;
-        this.isLoading = false;
+        this.isSaving = false;
+        this.cdr.detectChanges(); // Render mượt mà không bị giật/reload màn hình
         setTimeout(() => this.message = '', 3000);
       },
       error: (err) => {
-        console.error("Lỗi khi update profile:", err);
         this.message = err.error?.message || 'Đã có lỗi xảy ra.';
         this.isError = true;
-        this.isLoading = false;
+        this.isSaving = false;
+        this.cdr.detectChanges(); 
       }
     });
   }
@@ -99,13 +112,17 @@ export class EmployeeProfile implements OnInit {
       const reader = new FileReader();
       reader.onload = (e: any) => {
         this.avatarUrl = e.target.result;
-        localStorage.setItem('userAvatar', this.avatarUrl!);
+        localStorage.setItem('userAvatar', this.avatarUrl || '');
+        this.cdr.detectChanges(); // Bắt buộc render DOM ngay lập tức để hiện ảnh mới
       };
       reader.readAsDataURL(file);
     }
   }
 
   triggerFileInput(): void {
-    document.getElementById('avatarInput')?.click();
+    const input = document.getElementById('avatarInput');
+    if (input) {
+      input.click();
+    }
   }
 }

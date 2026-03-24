@@ -27,6 +27,9 @@ interface TaskRow {
 export class EmployeeDashboard implements OnInit {
   username: string = '';
 
+  viewMode: 'list' | 'detail' = 'list';
+  myTimesheets: MyTimesheet[] = [];
+
   tasks: MyTask[] = [];
   timesheet: MyTimesheet | null = null;
 
@@ -44,12 +47,81 @@ export class EmployeeDashboard implements OnInit {
     private router: Router
   ) {
     this.username = localStorage.getItem('username') || 'Employee';
-    // Mặc định, theo seed data, ta chọn tuần 2025-03-17 làm ví dụ để có dữ liệu
-    this.currentWeekStart = new Date(2025, 2, 17); // Tháng 2 = March trong TS Date
+    // Đã thay đổi khởi tạo date time động ở đây theo log mới của hệ thống thay vì fix cứng seed data
+    const today = new Date();
+    const day = today.getDay() || 7;
+    today.setDate(today.getDate() - day + 1);
+    this.currentWeekStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
   }
 
   ngOnInit() {
+    this.loadTimesheets();
+  }
+
+  loadTimesheets() {
+    this.timesheetService.getMyTimesheets().subscribe({
+      next: (data) => {
+        // Sao chép an toàn để Angular nhận biết thay đổi và tránh lỗi sort in-place
+        let safeData = Array.isArray(data) ? [...data] : [];
+        this.myTimesheets = safeData.sort((a, b) => {
+          const dA = a.weekStartDate ? new Date(a.weekStartDate).getTime() : 0;
+          const dB = b.weekStartDate ? new Date(b.weekStartDate).getTime() : 0;
+          return dB - dA;
+        });
+        this.viewMode = 'list';
+      },
+      error: (err) => {
+        console.error('Error loading timesheets', err);
+        this.statusMessage = err.error?.message || 'Không thể tải danh sách timesheet.';
+        this.isError = true;
+      }
+    });
+  }
+
+  createNewTimesheet() {
+    const today = new Date();
+    // Về thứ 2 của tuần hiện tại
+    const day = today.getDay() || 7;
+    today.setDate(today.getDate() - day + 1);
+    this.currentWeekStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+
+    this.viewMode = 'detail';
     this.loadWeekData();
+  }
+
+  viewTimesheet(ts: MyTimesheet) {
+    this.currentWeekStart = new Date(ts.weekStartDate);
+    this.viewMode = 'detail';
+    this.loadWeekData();
+  }
+
+  deleteTimesheet(ts: MyTimesheet) {
+    if (ts.status === 'Approved') {
+      alert('Không thể xoá timesheet đã được Approve.');
+      return;
+    }
+
+    if (confirm('Bạn có chắc chắn muốn xoá Timesheet tuần ' + ts.weekStartDate.split('T')[0] + ' không?')) {
+      this.timesheetService.deleteMyTimesheet(ts.timesheetId).subscribe({
+        next: (res) => {
+          this.statusMessage = 'Đã xoá Timesheet thành công.';
+          this.isError = false;
+          setTimeout(() => this.statusMessage = '', 3000);
+          this.loadTimesheets();
+        },
+        error: (err) => {
+          this.statusMessage = err.error?.message || 'Lỗi khi xoá';
+          this.isError = true;
+          setTimeout(() => this.statusMessage = '', 5000);
+        }
+      });
+    }
+  }
+
+  backToList() {
+    this.viewMode = 'list';
+    this.timesheet = null;
+    this.loadTimesheets();
   }
 
   generateWeekDays(start: Date) {
@@ -71,11 +143,10 @@ export class EmployeeDashboard implements OnInit {
   loadWeekData() {
     this.generateWeekDays(this.currentWeekStart);
 
-    // 1. Get tasks (Lấy tất cả available tasks để form luôn hiển thị sẵn)
-    this.timesheetService.getAvailableTasks().subscribe({
+    // 1. Get tasks (Lấy các task do manager assign trực tiếp cho employee này)
+    this.timesheetService.getMyTasks().subscribe({
       next: (tasks) => {
         this.tasks = tasks;
-        this.availableTasks = tasks;
         this.buildTaskRows();
 
         // 2. Get timesheet
@@ -116,7 +187,7 @@ export class EmployeeDashboard implements OnInit {
       // Nếu task từ timesheet chưa có trong (MyTask / Assigned Tasks), ta tự push vào taskRows để hiển thị
       let row = this.taskRows.find(r => r.taskItemId === entry.taskItemId);
       if (!row) {
-        const tInfo = this.availableTasks.find(t => t.taskItemId === entry.taskItemId);
+        const tInfo = this.tasks.find(t => t.taskItemId === entry.taskItemId);
         row = {
           taskItemId: entry.taskItemId,
           taskName: tInfo ? tInfo.taskName : 'Task ID: ' + entry.taskItemId,
@@ -131,41 +202,6 @@ export class EmployeeDashboard implements OnInit {
         cell.hours = entry.hoursWorked;
       }
     });
-  }
-
-  showAddTaskModal: boolean = false;
-  availableTasks: MyTask[] = [];
-  selectedTaskId: number | null = null;
-
-  openTaskModal() {
-    this.timesheetService.getAvailableTasks().subscribe(res => {
-      this.availableTasks = res;
-      this.showAddTaskModal = true;
-    });
-  }
-
-  closeTaskModal() {
-    this.showAddTaskModal = false;
-    this.selectedTaskId = null;
-  }
-
-  addTaskToTimesheet() {
-    if (!this.selectedTaskId) return;
-
-    const exists = this.taskRows.find(r => r.taskItemId == this.selectedTaskId);
-    if (!exists) {
-      const tInfo = this.availableTasks.find(t => t.taskItemId == this.selectedTaskId);
-      if (tInfo) {
-        this.taskRows.push({
-          taskItemId: tInfo.taskItemId,
-          taskName: tInfo.taskName,
-          projectName: tInfo.projectName,
-          entries: this.weekDays.map(d => ({ date: new Date(d), hours: 0 }))
-        });
-      }
-    }
-
-    this.closeTaskModal();
   }
 
   prevWeek() {

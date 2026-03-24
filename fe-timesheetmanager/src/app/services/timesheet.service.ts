@@ -89,6 +89,20 @@ export class TimesheetService {
     );
   }
 
+  getMyTimesheets(): Observable<MyTimesheet[]> {
+    return this.http.get<MyTimesheet[]>(
+      `${this.apiUrl}/my-timesheets`, 
+      this.getHeaders()
+    );
+  }
+
+  deleteMyTimesheet(id: number): Observable<any> {
+    return this.http.delete(
+      `${this.apiUrl}/my-timesheet/${id}`, 
+      this.getHeaders()
+    );
+  }
+
   saveTimesheet(data: SaveTimesheetRequest): Observable<any> {
     return this.http.post(`${this.apiUrl}/save`, data, this.getHeaders());
   }
