@@ -16,5 +16,8 @@ namespace TimeSheetManager.DAL.Repository
         void CreateTimesheet(Timesheet timesheet);
         void UpdateTimesheet(Timesheet timesheet);
         void DeleteEntries(List<TimesheetEntry> entries);
+        List<Timesheet> GetTimesheetsByEmployeeId(int employeeId);
+        Timesheet GetTimesheetById(int timesheetId);
+        void DeleteTimesheet(Timesheet timesheet);
     }
 }

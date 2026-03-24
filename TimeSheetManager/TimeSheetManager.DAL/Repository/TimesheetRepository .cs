@@ -60,5 +60,27 @@ namespace TimeSheetManager.DAL.Repository
             _context.TimesheetEntries.RemoveRange(entries);
             _context.SaveChanges();
         }
+
+        public List<Timesheet> GetTimesheetsByEmployeeId(int employeeId)
+        {
+            return _context.Timesheets
+                .Include(t => t.Entries)
+                .Where(t => t.EmployeeId == employeeId)
+                .OrderByDescending(t => t.WeekStartDate)
+                .ToList();
+        }
+
+        public Timesheet GetTimesheetById(int timesheetId)
+        {
+            return _context.Timesheets
+                .Include(t => t.Entries)
+                .FirstOrDefault(t => t.TimesheetId == timesheetId);
+        }
+
+        public void DeleteTimesheet(Timesheet timesheet)
+        {
+            _context.Timesheets.Remove(timesheet);
+            _context.SaveChanges();
+        }
     }
 }

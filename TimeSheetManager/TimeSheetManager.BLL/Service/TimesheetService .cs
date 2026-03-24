@@ -142,6 +142,41 @@ namespace TimeSheetManager.BLL.Service
                 _repo.UpdateTimesheet(timesheet);
             }
         }
+
+        public List<MyTimesheetDTO> GetMyTimesheets(string username)
+        {
+            var empId = GetEmployeeId(username);
+            var timesheets = _repo.GetTimesheetsByEmployeeId(empId);
+            return timesheets.Select(t => new MyTimesheetDTO
+            {
+                TimesheetId = t.TimesheetId,
+                WeekStartDate = t.WeekStartDate,
+                WeekEndDate = t.WeekEndDate,
+                Status = t.Status,
+                Entries = t.Entries.Select(e => new MyTimesheetEntryDTO
+                {
+                    TimesheetEntryId = e.TimesheetEntryId,
+                    TaskItemId = e.TaskItemId,
+                    WorkDate = e.WorkDate,
+                    HoursWorked = e.HoursWorked,
+                    Note = e.Note
+                }).ToList()
+            }).ToList();
+        }
+
+        public bool DeleteMyTimesheet(string username, int timesheetId)
+        {
+            var empId = GetEmployeeId(username);
+            var timesheet = _repo.GetTimesheetById(timesheetId);
+            if (timesheet == null || timesheet.EmployeeId != empId)
+                throw new Exception("Timesheet không tồn tại hoặc không thuộc quyền sở hữu của bạn.");
+
+            if (timesheet.Status == "Approved")
+                throw new Exception("Không được phép xoá timesheet đã được Manager Approve.");
+
+            _repo.DeleteTimesheet(timesheet);
+            return true;
+        }
     }
 }
 

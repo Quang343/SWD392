@@ -68,5 +68,40 @@ namespace TimeSheetManager.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+
+        [Authorize]
+        [HttpGet("my-timesheets")]
+        public IActionResult GetMyTimesheets()
+        {
+            try
+            {
+                var username = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value ?? User.Identity?.Name;
+                if (string.IsNullOrEmpty(username)) return Unauthorized(new { message = "Invalid Token" });
+
+                return Ok(_service.GetMyTimesheets(username));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [Authorize]
+        [HttpDelete("my-timesheet/{id}")]
+        public IActionResult DeleteMyTimesheet(int id)
+        {
+            try
+            {
+                var username = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value ?? User.Identity?.Name;
+                if (string.IsNullOrEmpty(username)) return Unauthorized(new { message = "Invalid Token" });
+
+                _service.DeleteMyTimesheet(username, id);
+                return Ok(new { message = "Xoá timesheet thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
     }
 }

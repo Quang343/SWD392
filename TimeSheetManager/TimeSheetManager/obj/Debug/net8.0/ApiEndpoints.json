@@ -137,6 +137,32 @@
   },
   {
     "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
+    "Method": "DeleteMyTimesheet",
+    "RelativePath": "api/timesheet/my-timesheet/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
+    "Method": "GetMyTimesheets",
+    "RelativePath": "api/timesheet/my-timesheets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TimeSheetManager.Controllers.TimesheetController",
     "Method": "SaveMyTimesheet",
     "RelativePath": "api/timesheet/save",
     "HttpMethod": "POST",

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace TimeSheetManager.DAL.Migrations
 {
     [DbContext(typeof(TimesheetDbContext))]
-    [Migration("20260323090745_InitialCreate")]
+    [Migration("20260324183257_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

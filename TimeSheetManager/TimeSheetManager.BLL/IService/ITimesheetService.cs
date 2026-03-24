@@ -15,5 +15,7 @@ namespace TimeSheetManager.BLL.IService
         List<MyTaskDTO> GetAvailableTasks();
         MyTimesheetDTO GetMyTimesheet(string username, DateTime startDate);
         void SaveMyTimesheet(string username, SaveTimesheetRequest request);
+        List<MyTimesheetDTO> GetMyTimesheets(string username);
+        bool DeleteMyTimesheet(string username, int timesheetId);
     }
 }
